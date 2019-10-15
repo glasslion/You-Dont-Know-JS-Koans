@@ -1,0 +1,25 @@
+{
+  "name": "you-dont-know-js-koans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "koans",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "npm": "^5.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "koans": "mocha --require chai.setup.js koans || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glasslion/You-Dont-Know-JS-Koans.git"
+  },
+  "author": "Leo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glasslion/You-Dont-Know-JS-Koans/issues"
+  },
+  "homepage": "https://github.com/glasslion/You-Dont-Know-JS-Koans#readme"
+}
